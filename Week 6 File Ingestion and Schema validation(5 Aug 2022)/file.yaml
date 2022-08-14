@@ -1,0 +1,17 @@
+file_type: csv
+dataset_name: housing
+file_name: california_housing_train
+table_name: housing
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - longitude
+    - latitude
+    - housing_median_age
+    - total_rooms
+    - total_bedrooms
+    - population
+    - households
+    - median_income
+    - median_house_value
